@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Projeto Final</title>
+  </head>
+  <body>
+    <h1><b>👩🏾‍💻 PROJETO FINAL- PRETALAB - CALCULADORA 👩🏾‍💻</b></h1>
+    <iframe id="gif" src="https://giphy.com/embed/WRQBXSCnEFJIuxktnw"></iframe> 
+    
+    <main>
+      <h2>Bem-vinda à nossa calculadora de média estudantil</h2>
+      <p>
+        Desenvolvida como parte do projeto de conclusão do módulo de lógica de programação do "O Poder do Futuro",<br> esta calculadora é uma demonstração prática do conhecimento adquiridos no modulo I da formação. <br> Nossa calculadora permite que você consulte de forma fácil e rápida a média, basta inserir as 4 notas e consultar o resultado.<br>
+      </p>
+
+      <div id="content">
+
+        <section id="projeto2">
+          <h2>Calculadora de Médias </h2>
+
+          <div id="contentCalcMedias">
+            <div id="notas">
+              <div class="nota">
+                <label for="nota1">Nota 1</label>
+                <input class="inputNota" id="nota1" type="number" required />
+              </div>
+
+              <div class="nota">
+                <label for="nota2">Nota 2</label>
+                <input class="inputNota" id="nota2" type="number" required />
+              </div>
+
+              <div class="nota">
+                <label for="nota3">Nota 3</label>
+                <input class="inputNota" id="nota3" type="number" required />
+              </div>
+
+              <div class="nota">
+                <label for="nota4">Nota 4</label>
+                <input class="inputNota" id="nota4" type="number" required />
+              </div>
+            </div>
+
+            <button id="btnSituacao" onclick="calcularMedia()">
+              Qual a situação da estudante?
+            </button>
+
+            <p id="situacaoAluno" />
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="media.js"></script>
+  </body>
+</html>
