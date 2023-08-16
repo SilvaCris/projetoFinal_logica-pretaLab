@@ -16,3 +16,6 @@ O projeto consiste em uma calculadora que recebe a média de um estudante e, com
  - Se a nota estiver entre 7.1 e 9.9, a mensagem será: "Notão! Sua média é {nota}!"
 
  - Se a nota for 10, a mensagem será: "Hoje é seu aniversário? Porque você está de parabéns! 10 de média"
+
+ #### Teste a calculadora: https://calculadora-crislaine.netlify.app/
+
