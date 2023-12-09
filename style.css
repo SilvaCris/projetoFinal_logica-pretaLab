@@ -56,13 +56,13 @@ body {
   
   }
   
-  #projeto2 {
+  #projeto1,#projeto2 {
     padding: 50px 100px;
     line-height: auto;   
 
     
   }
-  #projeto2 h2 {
+  #projeto1,#projeto2 h2 {
     padding-bottom: 20px;
     color: rgb(155, 82, 203) ;
 
@@ -115,6 +115,7 @@ body {
   
   .buttonCalc {
     width: 110px;
+    color: aliceblue;
   }
   
   .resultado {

@@ -11,15 +11,41 @@
     <iframe id="gif" src="https://giphy.com/embed/WRQBXSCnEFJIuxktnw"></iframe> 
     
     <main>
-      <h2>Bem-vinda à nossa calculadora de média estudantil</h2>
+      <h2>Bem-vinda às nossas calculadoras </h2>
       <p>
-        Desenvolvida como parte do projeto de conclusão do módulo de lógica de programação do "O Poder do Futuro",<br> esta calculadora é uma demonstração prática do conhecimento adquiridos no modulo I da formação. <br> Nossa calculadora permite que você consulte de forma fácil e rápida a média, basta inserir as 4 notas e consultar o resultado.<br>
+        Este é o projeto de conclusão do módulo de JavaScript do
+        curso Ciclo Formativo Básico, uma parceria da PretaLab com o Santander.<br> Esta calculadora é uma demonstração prática do conhecimento adquiridos no modulo de javascript. <br> Nossa calculadora permite fazer operações básicas e consultar de forma fácil e rápida a média, basta inserir os valores e verificar o resultado.<br>
       </p>
 
       <div id="content">
+        <section id="projeto1">
+          <h2>Calculadora Básica 🧮</h2>
+
+          <input class="inputCalc" id="numero1Soma" type="number" required />
+          <input class="inputCalc" id="numero2Soma" type="number" required />
+          <button class="buttonCalc" onclick="somar()">SOMAR</button>
+          <p class="resultado">Resultado: <b id="resultadoSoma"></b></p>
+
+          <input class="inputCalc" id="numero1Sub" type="number" required />
+          <input class="inputCalc" id="numero2Sub" type="number" required />
+          <button class="buttonCalc" onclick="subtrair()">SUBTRAIR</button>
+          <p class="resultado">Resultado: <b id="resultadoSub"></b></p>
+
+          <input class="inputCalc" id="numero1Mult" type="number" required />
+          <input class="inputCalc" id="numero2Mult" type="number" required />
+          <button class="buttonCalc" onclick="multiplicar()">
+            MULTIPLICAR
+          </button>
+          <p class="resultado">Resultado: <b id="resultadoMult"></b></p>
+
+          <input class="inputCalc" id="numero1Div" type="number" required />
+          <input class="inputCalc" id="numero2Div" type="number" required />
+          <button class="buttonCalc" onclick="dividir()">DIVIDIR</button>
+          <p class="resultado">Resultado: <b id="resultadoDiv"></b></p>
+        </section>
 
         <section id="projeto2">
-          <h2>Calculadora de Médias </h2>
+          <h2>Calculadora de Médias 🧮</h2>
 
           <div id="contentCalcMedias">
             <div id="notas">
@@ -48,12 +74,14 @@
               Qual a situação da estudante?
             </button>
 
-            <p id="situacaoAluno" />
+            <p id="situacaoAluno"></p> 
           </div>
         </section>
       </div>
     </main>
 
+    
     <script type="text/javascript" src="media.js"></script>
+    <script type="text/javascript" src="calculadora.js"></script>
   </body>
 </html>

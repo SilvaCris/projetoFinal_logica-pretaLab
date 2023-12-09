@@ -14,7 +14,7 @@ if (media == 0){
     
 } 
 else if(media>= 0.1 && media <= 3){
- mensagem ="Caramba, deu ruim, você obteve media" + " " + media + "📚 Estude mais e tente novamente !"  
+ mensagem ="Caramba, deu ruim, você obteve media" + " " + media + "📚 Estude mais e tente novamente !!"  
 }
 else if(media>= 3.1 && media <= 5.9){
  mensagem ="Você obteve media" + " " + media + "!"+" Falta pouco para a média! 😉"   
